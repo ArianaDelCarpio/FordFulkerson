@@ -1,0 +1,32 @@
+digraph {
+	rankdir=LR
+	size="8000,6000"
+	N0
+	N1
+	N0 -> N1 [label="30/30"]
+	N0
+	N2
+	N0 -> N2 [label="44/44"]
+	N0
+	N3
+	N0 -> N3 [label="31/31"]
+	N1
+	N4
+	N1 -> N4 [label="32/30"]
+	N2
+	N1
+	N2 -> N1 [label="39/0"]
+	N2
+	N4
+	N2 -> N4 [label="48/44"]
+	N3
+	N1
+	N3 -> N1 [label="27/0"]
+	N3
+	N2
+	N3 -> N2 [label="44/0"]
+	N3
+	N4
+	N3 -> N4 [label="40/31"]
+	label="Flujo Máximo: 105" labelloc=t
+}
